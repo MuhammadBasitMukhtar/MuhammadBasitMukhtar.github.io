@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Muhammad Basit Mukhtar</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section id="nav-bar">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                    <a class="navbar-brand" href="#">Muhammad Basit Mukhtar</a>
+                    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                            <i class="fa fa-bars"></i>
+                    </button>
+                    <div class="collapse navbar-collapse" id="navbarNav">
+                      <ul class="navbar-nav ml-auto">
+                        <li class="nav-item">
+                          <a class="nav-link" href="#top">HOME</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#skills">SKILLS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#about">PROJECTS</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#social">CONTACT ME</a>
+                        </li>
+                      </ul>
+                    </div>
+                  </nav>    </section>
+
+    <!---Banner Section--->
+    <section id="banner">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p class="nametop">I am</p>
+                    <p class="name">Muhammad Basit Mukhtar</p>
+                    <p class="namedetails">A Passionate UI/UX Designer, Front-End Developer, C# Programmer and Desktop Application Developer</p>
+                    <a class="btn btn-primary" href="mailto:basitmukhtar2015@email.com"><span>Hire Me!</span></a>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="Image/bm-logo.jpg" class="logo img-fluid">
+                </div>
+            </div>
+        </div>
+        <img class="bottom-img" src="Image/wave 1.png">
+    </section>
+
+    <!---Skills Section--->
+    <section id="skills">
+        <div class="container text-center">
+            <h1 class="title text-center">SKILLS</h1>
+            <div class="row text-center">
+                <div class="col-md-4 skills">
+                    <img src="Image/html.png" class="skills-icon">
+                    <h4>Front-End Developer</h4>
+                    <p class="sdetail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis</p>
+                </div>
+                <div class="col-md-4 skills">
+                    <img src="Image/desktop.png" class="skills-icon">
+                    <h4>Desktop App. Developer</h4>
+                    <p class="sdetail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis</p>
+                </div>
+                <div class="col-md-4 skills">
+                    <img src="Image/Csharp_Logo.png" class="skills-icon">
+                    <h4>C# Programmer</h4>
+                    <p class="sdetail">Lorem ipsum dolor sit amet consectetur adipisicing elit. Suscipit reiciendis</p>
+                </div>
+            </div>
+            <button type="button"  class="btn btn-primary"><span>All Skills</span></button>
+        </div>
+    </section>
+
+    <!---Projects Section--->
+    <section id="about">
+        <div class="container">
+            <h1 class="title text-center">PROJECTS</h1>
+            <div class="row">
+                <div class="col-md-6">
+                    <ul>
+                        <li onmouseover="BTicket()" onmouseout="DefaultPJ()">Bus Ticket Reservation System</li>
+                        <li onmouseover="POSystem()" onmouseout="DefaultPJ()">Point-Of-Sale System</li>
+                        <li onmouseover="SCESystem()" onmouseout="DefaultPJ()">Security Company Employee Management System</li>
+                        <li onmouseover="TASHA()" onmouseout="DefaultPJ()">TASHA - ECommerce Store</li>
+                    </ul>
+                </div>
+                <div class="col-md-6 text-center">
+                    <img src="Image/project.png" id="pj" class="img-fluid">
+                    <img id="PImage" src="" class="img-fluid">
+                    <h4 id="PHead"></h4>
+                    <p id="PDetail"></p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!---Social Media Section--->
+    <section id="social">
+<div class="container text-center">
+    <h2>Find Me on Social Media</h2>
+    <div class="social-icon text-center">
+    <a href="https://www.facebook.com/basit.mukhtar.1232"><img src="Image/facebook.png"> <span>Facebook</span> </a>
+    <a href="#"><img src="Image/twitter-icon.png"><span>Twitter</span></a>
+    <a href="#"><img src="Image/Whatsapp.png"><span>+923222357048</span></a>
+    </div>
+    
+</div>
+    </section>
+
+<!---Footer Section--->
+<section id="footer">
+    <img src="Image/wave-2.png" class="footer-img">
+    <div class="container text-center">
+        <div class="row">
+            <div class="col-md-6 footer-box">
+                <h4>Muhammad Basit</h4>
+                <p>A Passionate UI/UX Designer, Front-End Developer, C# Programmer and Desktop Application Developer</p>
+            </div>
+             <div class="col-md-6 footer-box">
+                 <h5><b>Contact Me</b></h5>
+                 <p><i class="fa fa-envelope" aria-hidden="true"></i>  basitmukhtar2015@gmail.com</p>
+                 <p><i class="fa fa-mobile" aria-hidden="true"></i>  +923222357048</p>
+             </div>
+        </div>
+        <hr>
+        <p class="rights">All Rights Reserved By Muhammad Basit Mukhtar.</p>
+    </div>
+</section>
+<!---Smooth Scroll--->
+<script src="smooth-scroll.js"></script>
+<script>
+        var scroll = new SmoothScroll('a[href*="#"]');
+    </script>
+
+
+<!---Functions Projects--->
+<script>
+
+    function DefaultPJ()
+    {
+        document.getElementById("pj").style.display = "inline-block";    
+        document.getElementById("PImage").style.display = "none";
+        document.getElementById("PHead").style.display = "none";
+        document.getElementById("PDetail").style.display = "none";
+    }
+
+function BTicket()
+{
+    document.getElementById("pj").style.display = "none";
+    document.getElementById("PImage").style.display = "inline-block";
+    document.getElementById("PHead").style.display = "block";
+    document.getElementById("PDetail").style.display = "block";
+    document.getElementById("PImage").src = "Image/AdminMainScreen.PNG"
+    document.getElementById("PHead").innerHTML = "Bus Ticket Reservation";
+    document.getElementById("PDetail").innerHTML = "A C# Based Desktop Application with Stunning UI Design and complete functionality.";
+}
+function POSystem()
+{
+    document.getElementById("pj").style.display = "none";
+    document.getElementById("PImage").style.display = "inline-block";
+    document.getElementById("PHead").style.display = "block";
+    document.getElementById("PDetail").style.display = "block";
+    document.getElementById("PImage").src = "Image/POS.PNG";
+    document.getElementById("PHead").innerHTML = "Point-Of-Sale System";
+    document.getElementById("PDetail").innerHTML = "A C# Based Desktop Application with Stunning UI Design and complete functionality.";
+}
+function SCESystem()
+{
+    document.getElementById("pj").style.display = "none";
+    document.getElementById("PImage").style.display = "inline-block";
+    document.getElementById("PHead").style.display = "block";
+    document.getElementById("PDetail").style.display = "block";
+    document.getElementById("PImage").src = "Image/SEC.PNG";
+    document.getElementById("PHead").innerHTML = "Security Company System";
+    document.getElementById("PDetail").innerHTML = "A C# Based Desktop Application with Stunning UI Design and complete functionality.";
+}
+function TASHA()
+{
+    document.getElementById("pj").style.display = "none";
+    document.getElementById("PImage").style.display = "inline-block";
+    document.getElementById("PHead").style.display = "block";
+    document.getElementById("PDetail").style.display = "block";
+    document.getElementById("PImage").src = "Image/0012.PNG";
+    document.getElementById("PHead").innerHTML = "TASHA - The Home Store";
+    document.getElementById("PDetail").innerHTML = "ECommerce Site completely designed using HTML/CSS";
+}
+
+</script>
+
+
+</body>
+</html>
