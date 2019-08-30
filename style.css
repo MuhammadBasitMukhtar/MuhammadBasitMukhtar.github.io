@@ -145,6 +145,11 @@
     padding: 5px;
     margin-top: 25px;
 }
+.sdetail
+{
+    margin-left: 4px;
+    padding: 4px;
+}
 .title::before
 {
     content: '';
