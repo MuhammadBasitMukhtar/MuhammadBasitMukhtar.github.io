@@ -145,11 +145,7 @@
     padding: 5px;
     margin-top: 25px;
 }
-.sdetail
-{
-    margin-left: 4px;
-    padding: 4px;
-}
+
 .title::before
 {
     content: '';
@@ -191,6 +187,10 @@
     padding-top: 25px;
     padding-bottom: 25px;
 }
+#about li
+{
+    margin-left: 5px;
+}
 #pj
 {
     width: 300px;
@@ -215,7 +215,7 @@
 }
 #about ul li
 {
-    font-size: 26px;
+    font-size: 22px;
     padding-top: 12px;
     
 }
