@@ -1,0 +1,444 @@
+<!DOCTYPE html>
+<html lang="en">
+    <script
+    src="https://code.jquery.com/jquery-3.1.1.js"
+    integrity="sha256-16cdPddA6VdVInumRGo6IbivbERE8p7CQR3HzTBuELA="
+    crossorigin="anonymous"></script>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Appsytech | Welcome</title>
+    <!-- bootsrap4-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- font awesome -->
+    <!-- animate css -->
+    <link rel="stylesheet" href="css/animate.css">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="css/all.css">
+    <!-- custom css -->
+    <link rel="stylesheet" href="css/custom.css">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    
+</head>
+
+<body>
+
+    <!-- wrapper -->
+    <div class="wrapper">
+        <!-- code start -->
+        <!-- header -->
+        <div class="header">
+            <!-- navbar -->
+            <!-- Navbar -->
+
+            <div class="navbar" style="background-color: #3c1053;">
+                    <div class="container">
+                        <div class="sec1">
+                            <img src="images/Logo.png" alt="" style="width: 120px; height: 80px;">
+                        </div>
+                        <div class="sec2" >
+                            <div id="menus">
+                                <ul>
+                                    <li class="active"><a href="#">Home</a></li>
+                                    <li><a href="pages/about.html">About Us</a></li>
+                                    <li><a href="#">FAQs</a></li>
+                                    <li><a href="#">Why Choosing Us?</a></li>
+                                    <li><a href="#">Benefits</a></li>
+                                    <button class="nav_btn"><span>Login</span></button>
+                                    <button class="nav_search_btn" id="nav_search_btn"><i class="fa fa-search"></i></button>
+                                    
+                                    
+                                </ul>
+                            </div>
+                            <div class="main_hamburger" id="main_hamburger">
+                                <button class="hamburger">
+                                    <span id="span" class=""></span>
+                                </button>
+                            </div>
+                        </div>
+                        </div>
+                        </div>
+            <!-- navbar -->
+            <!-- navbar -->
+           <!--Main-->
+           <br><br><br><br><br>
+           <section class="mixer-container">
+
+                <div id="steps-header">
+                    <div class="container mixer">
+                        <div class="steps-header">
+                            <a class="step finished" data-step="1">
+                                <div class="image"></div>
+                                <p>Choose Currency</p>
+                            </a>
+                            <a class="step active" data-step="2">
+                                <div class="image"></div>
+                                <p>Order Details</p>
+                            </a>
+                            <a class="step" data-step="3">
+                                <div class="image"></div>
+                                <p>Terms</p>
+                            </a>
+                            <a class="step" data-step="4">
+                                <div class="image"></div>
+                                <p>Send to Address</p>
+                            </a>
+                            <a class="step" data-step="5">
+                                <div class="image">
+                                    <img class="finish-stars" src="https://smartmixer.io/bundles/frontend/assets/images/mixer/bar/clean.svg" alt="">
+                                </div>
+                                <p>Finish</p>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            
+                <div class="step-container container" id="step-1" style="display: none;">
+            
+                    <div class="mixer">
+            
+                        <div class="title step-title">
+                            <h5><img src="https://smartmixer.io/bundles/frontend/assets/images/mixer/one.svg" alt="" class="responsive-img"> Select your Currency
+                            </h5>
+                            <img class="title-image" src="https://smartmixer.io/bundles/frontend/assets/images/how/how-bg-line.png" alt="">
+                        </div>
+            
+                        <div class="header-icons">
+                            <div id="output-step-1" style="display: none">
+                                <p class="warning"><i class="material-icons">warning</i>Your selected currency is currently not accepted, please select another currency.
+                                </p>
+                            </div>
+                            <div class="hoverable-shadow">
+                                <a data-currency="BTC" href="page2.html?currency=btc" class="single-icon ad-add-cart-listener" data-prevent="true">
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/header/bitcoin-logo2.svg" alt="bitcoin logo">
+                                    <p>Bitcoin</p>
+                                </a>
+                            </div>
+                            <div class="hoverable-shadow">
+                                <a data-currency="LTC" href="page2.html?currency=ltc" class="single-icon ad-add-cart-listener" data-prevent="true">
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/header/litecoin.svg" alt="litecoin logo">
+                                    <p>Litecoin</p>
+                                </a>
+                            </div>
+                            <div class="hoverable-shadow">
+                                <a data-currency="BCH" href="page2.html?currency=bch" class="single-icon ad-add-cart-listener" data-prevent="true">
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/header/bitcoin-logo.svg" alt="bitcoin logo">
+                                    <p>Bitcoin Cash</p>
+                                </a>
+                            </div>
+                            <div class="hoverable-shadow">
+                                <a data-currency="ETH" href="#" class="single-icon" data-prevent="true">
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/header/ethereum.svg" alt="ethereum logo">
+                                    <p class="mb-0">Ethereum</p>
+                                    <small>Soon</small>
+            
+                                </a>
+                            </div>
+                        </div>
+            
+                    </div>
+            
+                </div>
+            
+                <div class="step-container container" id="step-2" style="">
+            
+                    <div class="mixer">
+            
+                        <div class="title step-title" id="step-two-title">
+                            <h5><img src="https://smartmixer.io/bundles/frontend/assets/images/mixer/two.svg" alt="" class="responsive-img">
+                                <span>Receiver Address for&nbsp;<span id="currency-name">Bitcoin Cash</span>&nbsp;the Clean Coins</span>
+                            </h5>
+                            <img class="title-image" src="https://smartmixer.io/bundles/frontend/assets/images/how/how-bg-line.png" alt="">
+                        </div>
+            
+                        <form action="" id="mixer-form">
+                            <p class="warning"><i class="material-icons">warning</i>WARNING: For your own safety, Always check that you are visiting &nbsp;<a href="#">Our Site</a>&nbsp; and not a scam website!
+                            </p>
+            
+                           
+            
+                            <div class="all-addresses">
+            
+                                <label for="addressCode1" class="with-toolTip">Enter the Receiver Address : <img src="https://smartmixer.io/bundles/frontend/assets/images/icons/questions-circular-button.svg" class="responsive-img tooltipped" data-position="top" data-tooltip="Enter the Receiver Address, where the mixed coins should be sent. If you want to mix your own coins, enter your own Receiver Address. Note that the application of several addresses reinforces the anonymity." alt="Question Mark"></label>
+            
+                                <div class="address-container">
+                                    <div class="timer-container colored-details">
+                                        <p id="address-percentage1" class="address-percentage">25.50 %</p>
+                                        <p><i class="material-icons">access_time</i> after
+                                            &nbsp;<span id="address-timer1" class="address-timer">3hr. 0min.</span>
+                                        </p>
+                                    </div>
+                                    <div class="input-field">
+                                        <input type="text" id="addressCode1" placeholder="Enter the Receiver Address here" class="addressCode" required="">
+                                        <i id="add-address" class="material-icons">add_circle_outline</i>
+                                    </div>
+                                </div>
+            
+                            </div>
+            
+                            <!-- Start Service Slider -->
+                            <div class="slider-alpha-header">
+                                <p>- Service Fee: <img src="https://smartmixer.io/bundles/frontend/assets/images/icons/questions-circular-button.svg" class="responsive-img tooltipped" data-position="top" data-tooltip="Move the Service Fee slider to the desired value. We allow you to set the service fee down to tenths and thousandths of a percent. The higher the service fee, the better the pool used for the mixing process." alt="Question Mark"> <span class="reserve-percent" id="reserve-percent">3.7287%</span>
+                                </p>
+                                <p>- Pool Assignement: <img src="https://smartmixer.io/bundles/frontend/assets/images/icons/questions-circular-button.svg" class="responsive-img tooltipped" data-position="top" data-tooltip="<strong>Standard Pool</strong> - a basic pool operating under the 'Client <i class='fa fa-exchange'></i> Client' scheme. In this pool your coins will be mixed with incoming funds from other clients.<br />
+                                        <br />
+                                        <strong>Smart Pool</strong> - its reserves are formed from large-scale transactions of the 'Standard Pool', but additionally includes private reserves of SmartMixer and investors' coins. This enables a greater volume in the 'Smart Pool'.<br />
+                                        <br />
+                                        <strong>Stealth Pool</strong> - reserves of the 'Standard Pool' are completely excluded here. The 'Stealth Pool' includes only private reserves of SmartMixer and investors' coins.<br />
+                                        <br />
+                                        There is a difference in the application SmartMixer code for subsequent mixing from the reserves of the various pools. Additional information can be found in the FAQ section." alt="Question Mark"><span class="reserve-alpha">Smart Pool</span></p>
+                            </div>
+                            <div id="slider-reserve" class="main-slider ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content">
+                                <span class="first"></span>
+                                <span class="last"></span>
+                            <div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style="width: 68.2175%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 68.2175%;"></span></div>
+                            <!-- Ent Service Slider -->
+            
+                            <!-- Start Transfer Slider -->
+                            <div class="slider-alpha-header">
+                                <p id="percentage-distribution" class="with-toolTip" style="display: block;">Percentage Distribution : <img src="https://smartmixer.io/bundles/frontend/assets/images/icons/questions-circular-button.svg" class="responsive-img tooltipped" data-position="top" data-tooltip="Move the slider 'Percentage Distribution', to determine how much percent you want to send to each respective address." alt="Question Mark"></p>
+                            </div>
+                            <div id="slider-transfer1" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.489796, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(48.9796%, 0px) scale(0.510204, 1);"></div></div><div class="noUi-origin" style="transform: translate(-51.0204%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="99.0" aria-valuenow="49.0" aria-valuetext="49.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer2" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.332653, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(33.2653%, 0px) scale(0.347959, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(68.0612%, 0px) scale(0.319388, 1);"></div></div><div class="noUi-origin" style="transform: translate(-66.7347%, 0px); z-index: 5;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="66.7" aria-valuenow="33.6" aria-valuetext="33.60"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-31.9388%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="34.6" aria-valuemax="99.0" aria-valuenow="67.7" aria-valuetext="67.70"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer3" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: block;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.25, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(25%, 0px) scale(0.246939, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(49.6939%, 0px) scale(0.254082, 1);"></div><div class="noUi-connect c-4-color" style="transform: translate(75.102%, 0px) scale(0.24898, 1);"></div></div><div class="noUi-origin" style="transform: translate(-75%, 0px); z-index: 6;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="48.7" aria-valuenow="25.5" aria-valuetext="25.50"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-50.3061%, 0px); z-index: 7;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="26.5" aria-valuemax="73.6" aria-valuenow="49.7" aria-valuetext="49.70"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-24.898%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="50.7" aria-valuemax="99.0" aria-valuenow="74.6" aria-valuetext="74.60"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer4" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.189796, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(18.9796%, 0px) scale(0.206122, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(39.5918%, 0px) scale(0.207143, 1);"></div><div class="noUi-connect c-4-color" style="transform: translate(60.3061%, 0px) scale(0.203061, 1);"></div><div class="noUi-connect c-5-color" style="transform: translate(80.6122%, 0px) scale(0.193878, 1);"></div></div><div class="noUi-origin" style="transform: translate(-81.0204%, 0px); z-index: 7;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="38.8" aria-valuenow="19.6" aria-valuetext="19.60"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-60.4082%, 0px); z-index: 8;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="20.6" aria-valuemax="59.1" aria-valuenow="39.8" aria-valuetext="39.80"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-39.6939%, 0px); z-index: 5;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="40.8" aria-valuemax="79.0" aria-valuenow="60.1" aria-valuetext="60.10"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-19.3878%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="61.1" aria-valuemax="99.0" aria-valuenow="80.0" aria-valuetext="80.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer5" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.160204, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(16.0204%, 0px) scale(0.17449, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(33.4694%, 0px) scale(0.161224, 1);"></div><div class="noUi-connect c-4-color" style="transform: translate(49.5918%, 0px) scale(0.176531, 1);"></div><div class="noUi-connect c-5-color" style="transform: translate(67.2449%, 0px) scale(0.165306, 1);"></div><div class="noUi-connect c-6-color" style="transform: translate(83.7755%, 0px) scale(0.162245, 1);"></div></div><div class="noUi-origin" style="transform: translate(-83.9796%, 0px); z-index: 8;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="32.8" aria-valuenow="16.7" aria-valuetext="16.70"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-66.5306%, 0px); z-index: 9;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="17.7" aria-valuemax="48.6" aria-valuenow="33.8" aria-valuetext="33.80"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-50.4082%, 0px); z-index: 10;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="34.8" aria-valuemax="65.9" aria-valuenow="49.6" aria-valuetext="49.60"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-32.7551%, 0px); z-index: 5;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="50.6" aria-valuemax="82.1" aria-valuenow="66.9" aria-valuetext="66.90"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-16.2245%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="67.9" aria-valuemax="99.0" aria-valuenow="83.1" aria-valuetext="83.10"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer6" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.129592, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(12.9592%, 0px) scale(0.153061, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(28.2653%, 0px) scale(0.155102, 1);"></div><div class="noUi-connect c-4-color" style="transform: translate(43.7755%, 0px) scale(0.136735, 1);"></div><div class="noUi-connect c-5-color" style="transform: translate(57.449%, 0px) scale(0.155102, 1);"></div><div class="noUi-connect c-6-color" style="transform: translate(72.9592%, 0px) scale(0.15102, 1);"></div><div class="noUi-connect c-7-color" style="transform: translate(88.0612%, 0px) scale(0.119388, 1);"></div></div><div class="noUi-origin" style="transform: translate(-87.0408%, 0px); z-index: 9;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="27.7" aria-valuenow="13.7" aria-valuetext="13.70"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-71.7347%, 0px); z-index: 10;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="14.7" aria-valuemax="42.9" aria-valuenow="28.7" aria-valuetext="28.70"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-56.2245%, 0px); z-index: 11;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="29.7" aria-valuemax="56.3" aria-valuenow="43.9" aria-valuetext="43.90"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-42.551%, 0px); z-index: 6;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="44.9" aria-valuemax="71.5" aria-valuenow="57.3" aria-valuetext="57.30"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-27.0408%, 0px); z-index: 5;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="58.3" aria-valuemax="86.3" aria-valuenow="72.5" aria-valuetext="72.50"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-11.9388%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="73.5" aria-valuemax="99.0" aria-valuenow="87.3" aria-valuetext="87.30"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer7" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.123469, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(12.3469%, 0px) scale(0.128571, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(25.2041%, 0px) scale(0.123469, 1);"></div><div class="noUi-connect c-4-color" style="transform: translate(37.551%, 0px) scale(0.130612, 1);"></div><div class="noUi-connect c-5-color" style="transform: translate(50.6122%, 0px) scale(0.12551, 1);"></div><div class="noUi-connect c-6-color" style="transform: translate(63.1633%, 0px) scale(0.135714, 1);"></div><div class="noUi-connect c-7-color" style="transform: translate(76.7347%, 0px) scale(0.123469, 1);"></div><div class="noUi-connect c-8-color" style="transform: translate(89.0816%, 0px) scale(0.109184, 1);"></div></div><div class="noUi-origin" style="transform: translate(-87.6531%, 0px); z-index: 10;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="24.7" aria-valuenow="13.1" aria-valuetext="13.10"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-74.7959%, 0px); z-index: 11;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="14.1" aria-valuemax="36.8" aria-valuenow="25.7" aria-valuetext="25.70"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-62.449%, 0px); z-index: 12;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="26.7" aria-valuemax="49.6" aria-valuenow="37.8" aria-valuetext="37.80"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-49.3878%, 0px); z-index: 7;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="38.8" aria-valuemax="61.9" aria-valuenow="50.6" aria-valuetext="50.60"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-36.8367%, 0px); z-index: 6;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="51.6" aria-valuemax="75.2" aria-valuenow="62.9" aria-valuetext="62.90"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-23.2653%, 0px); z-index: 5;"><div class="noUi-handle" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="63.9" aria-valuemax="87.3" aria-valuenow="76.2" aria-valuetext="76.20"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-10.9184%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="6" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="77.2" aria-valuemax="99.0" aria-valuenow="88.3" aria-valuetext="88.30"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-transfer8" class="main-slider slider-transfer noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"><div class="noUi-connect c-1-color" style="transform: translate(0%, 0px) scale(0.1, 1);"></div><div class="noUi-connect c-2-color" style="transform: translate(10%, 0px) scale(0.113265, 1);"></div><div class="noUi-connect c-3-color" style="transform: translate(21.3265%, 0px) scale(0.105102, 1);"></div><div class="noUi-connect c-4-color" style="transform: translate(31.8367%, 0px) scale(0.110204, 1);"></div><div class="noUi-connect c-5-color" style="transform: translate(42.8571%, 0px) scale(0.109184, 1);"></div><div class="noUi-connect c-6-color" style="transform: translate(53.7755%, 0px) scale(0.121429, 1);"></div><div class="noUi-connect c-7-color" style="transform: translate(65.9184%, 0px) scale(0.108163, 1);"></div><div class="noUi-connect c-8-color" style="transform: translate(76.7347%, 0px) scale(0.114286, 1);"></div><div class="noUi-connect undefined" style="transform: translate(88.1633%, 0px) scale(0.118367, 1);"></div></div><div class="noUi-origin" style="transform: translate(-90%, 0px); z-index: 11;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="1.0" aria-valuemax="20.9" aria-valuenow="10.8" aria-valuetext="10.80"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-78.6735%, 0px); z-index: 12;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="11.8" aria-valuemax="31.2" aria-valuenow="21.9" aria-valuetext="21.90"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-68.1633%, 0px); z-index: 13;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="22.9" aria-valuemax="42.0" aria-valuenow="32.2" aria-valuetext="32.20"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-57.1429%, 0px); z-index: 14;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="33.2" aria-valuemax="52.7" aria-valuenow="43.0" aria-valuetext="43.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-46.2245%, 0px); z-index: 7;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="44.0" aria-valuemax="64.6" aria-valuenow="53.7" aria-valuetext="53.70"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-34.0816%, 0px); z-index: 6;"><div class="noUi-handle" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="54.7" aria-valuemax="75.2" aria-valuenow="65.6" aria-valuetext="65.60"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-23.2653%, 0px); z-index: 5;"><div class="noUi-handle" data-handle="6" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="66.6" aria-valuemax="86.4" aria-valuenow="76.2" aria-valuetext="76.20"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-11.8367%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-upper" data-handle="7" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="77.2" aria-valuemax="99.0" aria-valuenow="87.4" aria-valuetext="87.40"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <!-- Ent Transfer Slider -->
+            
+            
+                            <!-- Start Delay Slider -->
+                            <div class="slider-alpha-header">
+                                <p id="transfer-delay" class="with-toolTip">Transfer Delay :
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/icons/questions-circular-button.svg" class="responsive-img tooltipped" data-position="top" data-tooltip="Move the slider 'Transfer delay', to determine when your coins shall be sent to the receiver address. We allow to set the 'Transfer Delay' precise to the minute instead of only hours. Also, the longer the delay period, the better." alt="Question Mark"></p>
+                            </div>
+                            <div id="slider-delay1" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 4;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay2" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 5;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 6;"><div class="noUi-handle noUi-handle-upper" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay3" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 6;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 7;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 8;"><div class="noUi-handle noUi-handle-upper" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay4" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: block;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 7;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 8;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 9;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-83.3333%, 0px); z-index: 10;"><div class="noUi-handle noUi-handle-upper" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="720.0" aria-valuetext="720.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay5" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 8;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 9;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 10;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-83.3333%, 0px); z-index: 11;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="720.0" aria-valuetext="720.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-79.1667%, 0px); z-index: 12;"><div class="noUi-handle noUi-handle-upper" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="900.0" aria-valuetext="900.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay6" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 9;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 10;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 11;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-83.3333%, 0px); z-index: 12;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="720.0" aria-valuetext="720.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-79.1667%, 0px); z-index: 13;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="900.0" aria-valuetext="900.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-75%, 0px); z-index: 14;"><div class="noUi-handle noUi-handle-upper" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1080.0" aria-valuetext="1080.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay7" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 10;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 11;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 12;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-83.3333%, 0px); z-index: 13;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="720.0" aria-valuetext="720.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-79.1667%, 0px); z-index: 14;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="900.0" aria-valuetext="900.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-75%, 0px); z-index: 15;"><div class="noUi-handle" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1080.0" aria-valuetext="1080.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-70.8333%, 0px); z-index: 16;"><div class="noUi-handle noUi-handle-upper" data-handle="6" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1260.0" aria-valuetext="1260.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay8" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 11;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 12;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 13;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-83.3333%, 0px); z-index: 14;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="720.0" aria-valuetext="720.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-79.1667%, 0px); z-index: 15;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="900.0" aria-valuetext="900.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-75%, 0px); z-index: 16;"><div class="noUi-handle" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1080.0" aria-valuetext="1080.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-70.8333%, 0px); z-index: 17;"><div class="noUi-handle" data-handle="6" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1260.0" aria-valuetext="1260.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-66.6667%, 0px); z-index: 18;"><div class="noUi-handle noUi-handle-upper" data-handle="7" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1440.0" aria-valuetext="1440.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <div id="slider-delay9" class="main-slider slider-delay noUi-target noUi-ltr noUi-horizontal" style="display: none;"><div class="noUi-base"><div class="noUi-connects"></div><div class="noUi-origin" style="transform: translate(-95.8333%, 0px); z-index: 12;"><div class="noUi-handle noUi-handle-lower" data-handle="0" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="180.0" aria-valuetext="180.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-91.6667%, 0px); z-index: 13;"><div class="noUi-handle" data-handle="1" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="360.0" aria-valuetext="360.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-87.5%, 0px); z-index: 14;"><div class="noUi-handle" data-handle="2" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="540.0" aria-valuetext="540.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-83.3333%, 0px); z-index: 15;"><div class="noUi-handle" data-handle="3" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="720.0" aria-valuetext="720.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-79.1667%, 0px); z-index: 16;"><div class="noUi-handle" data-handle="4" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="900.0" aria-valuetext="900.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-75%, 0px); z-index: 17;"><div class="noUi-handle" data-handle="5" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1080.0" aria-valuetext="1080.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-70.8333%, 0px); z-index: 18;"><div class="noUi-handle" data-handle="6" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1260.0" aria-valuetext="1260.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-66.6667%, 0px); z-index: 19;"><div class="noUi-handle" data-handle="7" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1440.0" aria-valuetext="1440.00"><div class="noUi-touch-area"></div></div></div><div class="noUi-origin" style="transform: translate(-62.5%, 0px); z-index: 20;"><div class="noUi-handle noUi-handle-upper" data-handle="8" tabindex="0" role="slider" aria-orientation="horizontal" aria-valuemin="0.0" aria-valuemax="4320.0" aria-valuenow="1620.0" aria-valuetext="1620.00"><div class="noUi-touch-area"></div></div></div></div></div>
+                            <!-- Ent Delay Slider -->
+            
+                            <!-- Start Strength Slider -->
+                            <div class="slider-alpha-header">
+                                <p id="transfer-strength" class="with-toolTip">Mixing Strength Meter : <img src="https://smartmixer.io/bundles/frontend/assets/images/icons/questions-circular-button.svg" class="responsive-img tooltipped" data-position="top" data-tooltip="Recommendations how to mix your Cryptos more effective
+                                                          <br><br>
+                                                          <table>
+                                                            <tbody><tr>
+                                                              <td style=&quot;vertical-align: top&quot;><i class=&quot;material-icons tooltip-strength-meter-attr green-text&quot; data-attr=&quot;severalReceivingAddress&quot;>check</i> </td>
+                                                              <td> Enter more than one Receiver Address</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style=&quot;vertical-align: top&quot;><i class=&quot;material-icons green-text tooltip-strength-meter-attr&quot; data-attr=&quot;serviceFee&quot;>check</i> </td>
+                                                              <td>  Do not set 'Service fee' as minimum value</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style=&quot;vertical-align: top&quot;><i class=&quot;material-icons green-text tooltip-strength-meter-attr&quot; data-attr=&quot;transferDelay&quot;>check</i> </td>
+                                                              <td>  Do not set 'Transfer delay' as minimum value</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style=&quot;vertical-align: top&quot;><i class=&quot;material-icons tooltip-strength-meter-attr green-text&quot; data-attr=&quot;percentageSame&quot;>check</i> </td>
+                                                              <td> Percentage Distribution should not be set for each address the same</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style=&quot;vertical-align: top&quot;><i class=&quot;material-icons green-text tooltip-strength-meter-attr&quot; data-attr=&quot;transferDelaySame&quot;>check</i> </td>
+                                                              <td>   Transfer Delays should not be the same</td>
+                                                            </tr>
+                                                          </tbody></table>
+                                                          <br>
+                                                          Find out more details in our FAQ section." alt="Question Mark"></p>
+                            </div>
+                            <div id="slider-strength" class="main-slider slider-strength ui-slider ui-corner-all ui-slider-horizontal ui-widget ui-widget-content ui-slider-disabled ui-state-disabled smart"><div class="ui-slider-range ui-corner-all ui-widget-header ui-slider-range-min" style="width: 100%;"></div><span tabindex="0" class="ui-slider-handle ui-corner-all ui-state-default" style="left: 100%;"></span></div>
+                            <!-- Ent Strength Slider -->
+                            <div style="display: none" id="strength-dom-helper">Recommendations how to mix your Cryptos more effective
+                                                          <br><br>
+                                                          <table>
+                                                            <tbody><tr>
+                                                              <td style="vertical-align: top"><i class="material-icons tooltip-strength-meter-attr green-text" data-attr="severalReceivingAddress">check</i> </td>
+                                                              <td> Enter more than one Receiver Address</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style="vertical-align: top"><i class="material-icons green-text tooltip-strength-meter-attr" data-attr="serviceFee">check</i> </td>
+                                                              <td>  Do not set 'Service fee' as minimum value</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style="vertical-align: top"><i class="material-icons green-text tooltip-strength-meter-attr" data-attr="transferDelay">check</i> </td>
+                                                              <td>  Do not set 'Transfer delay' as minimum value</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style="vertical-align: top"><i class="material-icons tooltip-strength-meter-attr green-text" data-attr="percentageSame">check</i> </td>
+                                                              <td> Percentage Distribution should not be set for each address the same</td>
+                                                            </tr>
+                                                            <tr>
+                                                              <td style="vertical-align: top"><i class="material-icons green-text tooltip-strength-meter-attr" data-attr="transferDelaySame">check</i> </td>
+                                                              <td>   Transfer Delays should not be the same</td>
+                                                            </tr>
+                                                          </tbody></table>
+                                                          <br>
+                                                          Find out more details in our FAQ section.</div>
+            
+                            <div class="center-align mixing-loader" id="step-3-request-loader" style="display: none">
+                                <img src="https://smartmixer.io/bundles/frontend/assets/images/mixer/checked.svg" alt="Check mark">
+                                <div class="lds-roller">
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                    <div></div>
+                                </div>
+                            </div>
+                            <div class="mixer-footer center-align" id="step-3-request-submit">
+                                <h5 class="red-text form-error-msg hidden"><i class="material-icons">error</i> &nbsp;&nbsp;
+                                    <span></span></h5>
+                                <button class="hoverable-shadow waves-effect waves-light" type="submit">
+                                    <span>Continue</span> <i class="material-icons">chevron_right</i>
+                                </button>
+                            </div>
+            
+                        </form>
+            
+                    </div>
+            
+                </div>
+            
+                <div class="step-container container" id="step-3" style="display: none;">
+            
+                    <div class="mixer mixer-confirm">
+            
+                        <div class="title step-title">
+                            <h5><img src="https://smartmixer.io/bundles/frontend/assets/images/mixer/three.svg" alt="" class="responsive-img">Please read and agree with the following terms</h5>
+                            <img class="title-image" src="https://smartmixer.io/bundles/frontend/assets/images/how/how-bg-line.png" alt="">
+                        </div>
+            
+                        <form action="" id="mixer-confirm-form">
+            
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" name="terms">
+                                    <span><span class="bold">I confirm</span> that the incoming address for transfer is only valid for 24 hours. If 24 hours are over, no further payments to this address will be accepted. <br> <span class="underlined">I also know that only the first transfer will be accepted for the mixing operation.</span> <br> Any additional transfer will be ignored by the system.</span>
+                                </label>
+                            </p>
+            
+                            <p>
+                                <label>
+                                    <input type="checkbox" class="filled-in" name="terms">
+                                    <span><span class="bold">I confirm </span> that the letter of guarantee needs be downloaded and verified before a transfer of coins to www.smartmixer.io.<span class="bold">I also confirm </span> that I have read and that I agree to the <a href="%termsOfServiceLink%">Terms of Service</a>.</span>
+                                </label>
+                            </p>
+            
+                            <div class="mixer-footer center-align">
+                                <button class="hoverable-shadow waves-effect waves-light" type="submit">
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/how/button-bubbles.svg" alt="Bubbles" class="first">
+                                    <span>Mix my Cryptos</span> <i class="material-icons">chevron_right</i>
+                                    <img src="https://smartmixer.io/bundles/frontend/assets/images/how/button-bubbles.svg" alt="Bubbles" class="second">
+                                </button>
+                            </div>
+            
+                        </form>
+            
+                    </div>
+            
+                </div>
+            
+                
+                
+                
+            
+            </section>
+            <!--Main-->   
+            
+
+        <!-- footer -->
+        <div class="container-fluid footer" style="background: #4B43B2;">
+            <div class="container">
+
+                <div class="row">
+                    <!-- box start -->
+                    <div class="col-lg-12 box fade_anim">
+                        <br>
+                            <a href="#"><span style="font-size: 22px; color: #fff; margin: 12px 3px; font-weight: lighter;">Home</span></a>
+                            <a href="#"><span style="font-size: 22px; color: #fff; margin: 12px 3px; font-weight: lighter;">About Us</span></a>
+                            <a href="#"><span style="font-size: 22px; color: #fff; margin: 12px 3px; font-weight: lighter;">Scenarios</span></a>
+                            <a href="#"><span style="font-size: 22px; color: #fff; margin: 12px 3px; font-weight: lighter;">FAQs</span></a>
+                            
+                    </div>
+                    
+
+                </div>
+                <div class="row" >
+                        <!-- box start -->
+                        <div class="col-lg-4"></div>
+                        <div class="col-lg-4">
+                            
+                            <a href="#" style="padding: 7px 20px; border: 1px solid white; border-radius: 50px; float: right; margin-top: 30px;">Something</a>
+                            <h3 style="font-weight: lighter; color: #fff; margin-top: 30px; float: right; padding: 3px 10px;">SmartMixture</h3>
+                        </div>
+                        <div class="col-lg-4 box fade_anim">
+                            <br>
+                                <a href="#"><img src="img/google-play-logo-1518163351.png" width="130" height="45"></a>
+                                <a href="#"><img src="img/appstore.png" width="130" height="45"></a>
+                        </div>
+               
+            </div>
+            <br>
+            <!-- footer end -->
+
+            
+                    <p class="text-fff" style="float: right;" style="background-color: #2D2E8E;">
+                        Copyright ©<script>
+                            document.write(new Date().getFullYear());
+                        </script> <b> </b> <i class="fas fa-heart" aria-hidden="true"></i> All Reserved By <b
+                            class="custom-text-primary-two">SmartMixture</b></b>
+                    </p>
+                </div>
+            
+        <!-- Search Box -->
+        <div id="myOverlay" class="overlay">
+            <span class="closebtn" id="clode_overlay" title="Close Overlay">x</span>
+            <div class="overlay-content">
+              <form action="action_page.php">
+                <input type="text" placeholder="Search.." name="search">
+                <button type="submit"><i class="fa fa-search"></i></button>
+              </form>
+            </div>
+          </div>
+
+
+        <!-- Code end -->
+
+        
+       
+            <!-- wrapper -->
+        <!-- Scripts -->
+<script src="https://smartmixer.io/bundles/frontend/assets/js/wallet-address-validator.min.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/clipboard.min.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/main.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/jquery.qrcode.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/jquery.cookie.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/slider.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/chat.js?v=1573213629"></script>
+<script src="https://smartmixer.io/bundles/frontend/assets/js/custom.js?v=1573213629"></script>      <script src="https://smartmixer.io/bundles/frontend/assets/js/slider.js?v=1573213629"></script>
+    <!-- popper js -->
+    <script src="js/popper.min.js"></script>
+    <!-- boostrap js -->
+    <script src="js/bootstrap.min.js"></script>
+        <!-- scroll reveal -->
+        <script src="js/scrollreveal.js"></script>
+        <!-- custom js -->
+        <script src="js/custom.js"></script>
+        
+</body>
+
+</html>
